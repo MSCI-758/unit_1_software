@@ -128,7 +128,7 @@ It's customary to refer to code directly inline using single grave accents so th
 For example:
 
 ```{r}
-teeth_lost_per_kid = c(16, 1, 0) # Evee, Hazel, Nell
+teeth_lost_per_kid = c(16, 4, 0) # Evee, Hazel, Nell
 ```
 
 Our important data is stored in the variable `teeth_lost_per_kid` and I can use that data to calculate the total number of times I've played tooth fairy, which is: `r sum(teeth_lost_per_kid)`. Hooray!
@@ -156,9 +156,9 @@ And here's the comic again but with a caption included, and the size reduced by 
 
 ### More with RMarkdown
 
-The best way to learn the formatting for RMarkdown is simply to practice. It will take a few days, but soon the format will become second nature, and you won't need to think about it If you forget, you can get to a handy reference sheet with *Help > Markdown Quick Reference*. 
+The best way to learn the formatting for RMarkdown is simply to practice. It will take a few days, but soon the format will become second nature, and you won't need to think about it. If you forget, you can get to a handy reference sheet with *Help > Markdown Quick Reference*. 
 
-There is SO much more that you can do when building RMarkdown files, including formatting tables, embedding citations, automating report generation etc. People use RMarkdown to write textbooks, such as the Hadley Wickham's textbook suggested for this class: <https://r4ds.had.co.nz/>. You can go to this textbook and view the source code behind the book to see all of the `.Rmd` files used to build the book. People also use RMarkdown to write theses and dissertations, reports, and so on. There are resources listed below that can help you learn some of the extended functionality. However, for this course, the basic commands for text formatting, inserting code and output and rendering .html or .pdf documents is sufficient.
+There is SO much more that you can do when building RMarkdown files, including formatting tables, embedding citations, automating report generation etc. People use RMarkdown to write textbooks, such as the Hadley Wickham's textbook suggested for this class: <https://r4ds.had.co.nz/>. You will see that all of the tutorials for this course were built with `.Rmd` files as well. People also use RMarkdown to write theses and dissertations, reports, and so on. There are resources listed below that can help you learn some of the extended functionality. However, for this course, the basic commands for text formatting, inserting code and output and rendering .html or .pdf documents is sufficient.
 
 Note: I am not suggesting you should write your dissertation in RMarkdown. You should write your dissertation in whatever software your advisor is comfortable with (probably Word). I scaled a huge mountain by learning Latex and writing my first chapter of my dissertation with gorgeous embedded equations, and my advisor said "What do you expect me to do with this? Convert it to Word." We are using RMarkdown in this class to expose you to a popular style of programming notebook (like Jupyter) that has benefits for creating reproducible analyses and contributing to open data science.
 
